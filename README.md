@@ -1,2 +1,2 @@
 # ngplay
-Responsive Web Development with Bootstrap and Angular-Develop
+Responsive Web Development with Bootstrap and Angular-Release
