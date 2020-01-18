@@ -1,0 +1,16 @@
+
+git clone git@github.com-javagrails:javagrails/ngplay.git
+
+
+=> Adding Bootstrap in app
+https://getbootstrap.com
+
+npm install --save bootstrap
+
+
+
+
+
+
+
+
