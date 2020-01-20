@@ -21,7 +21,22 @@ https://getbootstrap.com
 
 npm install --save bootstrap
 
-============= XYZ =============
+============= 02. Create Components with CLI and Routing.mp4 =============
+ng g component home --skipTests
+ng g component portfolio --skipTests
+ng g component contact --skipTests
+
+============= 03. Create the Skeleton, the Navigation, and Footer.mp4 =============
+div.parent>div.child
+div>div.child1+div.child2
+div>div*6
+
+div.site>div.site-content>nav+div.header+main^footer
+
+https://fonts.google.com/?selection.family=Montserrat:400,700
+https://fontawesome.com/kits/59512047a3/use
+
+
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
