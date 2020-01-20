@@ -2,10 +2,48 @@
 git clone git@github.com-javagrails:javagrails/ngplay.git
 
 
+============= 01. Angular CLI Introduction.mp4 =============
+npm install -g @angular/cli
+ng v
+
+============= 02. Creating the Project.mp4 =============
+ng new ngplay
+
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss
+
+============= 03. Browsing Our Application.mp4 =============
+npm start
+
+============= 02. Adding Bootstrap to Our Project.mp4 =============
 => Adding Bootstrap in app
 https://getbootstrap.com
 
 npm install --save bootstrap
+
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
 
 
 
