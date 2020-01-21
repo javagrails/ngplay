@@ -1,5 +1,23 @@
 # Ngplay
 
+## Responsive for below devices
+
+##### Mobile S-320px
+![Resources](docs/device/01.%20Mobile%20S-320px.png)
+
+##### Tablet-768px
+![Resources](docs/device/02.%20Tablet-768px.png)
+
+##### Laptop-1024px
+![Resources](docs/device/03.%20Laptop-1024px.png)
+
+##### Laptop L-1440px
+![Resources](docs/device/04.%20Laptop%20L-1440px.png)
+
+
+=============================================
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
 ## Development server
