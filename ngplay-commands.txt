@@ -70,33 +70,29 @@ div>(div.row>div.col-12>h2+p>lorem21)+div.row>(div.col*7>img)+div.col-12>button
 https://fakeimg.pl
 
 ############# Chapter 6 - Creating Our Portfolio Page #############
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
+============= 01. Adding the Portfolio Structure.mp4 =============
+============= 02. Creating Our First Service.mp4 =============
+============= 03. Displaying Our List of Portfolios.mp4 =============
+============= 04. Filtering Our Portfolio List.mp4 =============
+============= 05. Animating Our Portfolio List.mp4 =============
+============= 06. Updating Our Homepage.mp4 =============
+
 
 ############# Chapter 7 - Creating Our Contact Page #############
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
+============= 01. Adding Contact Details.mp4 =============
+============= 02. Creating Our Contact Form.mp4 =============
+
 
 ############# Chapter 8 - Creating a Production Build and What’s Next #############
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
+============= 01. Creating a Production Build.mp4 =============
+============= 02. Optimizing Our Website.mp4 =============
+============= 03. What’s Next and Conclusion.mp4 =============
+
 
 ############# Chapter Exersice files #############
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
+============= my-portfolio-website =============
 
-############# Chapter XXX #############
-============= XYZ =============
+############# Chapter XXX_EXAMPLE_XXX #############
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
