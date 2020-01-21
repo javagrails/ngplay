@@ -1,7 +1,7 @@
 
 git clone git@github.com-javagrails:javagrails/ngplay.git
 
-
+############# Chapter 2 - Creating the Project with Angular CLI #############
 ============= 01. Angular CLI Introduction.mp4 =============
 npm install -g @angular/cli
 ng v
@@ -15,12 +15,14 @@ ng new ngplay
 ============= 03. Browsing Our Application.mp4 =============
 npm start
 
+############# Chapter Chapter 3 - Integrating Bootstrap #############
 ============= 02. Adding Bootstrap to Our Project.mp4 =============
 => Adding Bootstrap in app
 https://getbootstrap.com
 
 npm install --save bootstrap
 
+############# Chapter 4 - Creating Our Website Skeleton #############
 ============= 02. Create Components with CLI and Routing.mp4 =============
 ng g component home --skipTests
 ng g component portfolio --skipTests
@@ -36,25 +38,64 @@ div.site>div.site-content>nav+div.header+main^footer
 https://fonts.google.com/?selection.family=Montserrat:400,700
 https://fontawesome.com/kits/59512047a3/use
 
+############# Chapter 5 - Creating Our Homepage #############
+============= 01. Adding Angular Material.mp4 =============
+ng add @angular/material
 
+? Choose a prebuilt theme name, or "custom" for a custom theme: Custom
+? Set up HammerJS for gesture recognition? Yes
+? Set up browser animations for Angular Material? Yes
+
+
+============= 02. Creating Our Skill UI Blocks.mp4 =============
+src/app/components/home/home.component.html
+
+https://material.angular.io/components/card/api
+div.row>div.col-4*3>mat-card
+
+============= 03. Creating the About Me Section.mp4 =============
+src/app/components/home/home.component.html
+div.row>div.col-8+div.col-4
+p>lorem26^p>lorem13
+
+div*3>strong+span+mat-progress-bar
+
+============= 04. Adding the Portfolio Preview and Links.mp4 =============
+src/app/components/home/home.component.html
+div*3>div.row>div.col-3+div.col-9>h2+p>lorem26^p>lorem21^button
+
+https://material.angular.io/components/button/examples
+
+div>(div.row>div.col-12>h2+p>lorem21)+div.row>(div.col*7>img)+div.col-12>button
+https://fakeimg.pl
+
+############# Chapter 6 - Creating Our Portfolio Page #############
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+============= XYZ =============
+
+############# Chapter 7 - Creating Our Contact Page #############
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
+
+############# Chapter 8 - Creating a Production Build and What’s Next #############
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
+
+############# Chapter Exersice files #############
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
-============= XYZ =============
+
+############# Chapter XXX #############
 ============= XYZ =============
 ============= XYZ =============
 ============= XYZ =============

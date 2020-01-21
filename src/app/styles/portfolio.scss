@@ -43,6 +43,22 @@ body {
     }
 }
 
+.row {
+  .skill-block {
+    padding: 2.5rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.portfolio-preview {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  img {
+    border: 2px solid $body-color;
+  }
+}
+
 .footer {
     position: relative;
     bottom: 1.25rem;
@@ -66,4 +82,12 @@ body {
             }
         }
     }
+}
+
+.mat-card {
+  color: $border-color;
+  background-color: $alt-bg;
+  .mat-card-header-text {
+    margin: 0rem 0.5rem !important;
+  }
 }
