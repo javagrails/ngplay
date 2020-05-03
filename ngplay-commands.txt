@@ -75,8 +75,12 @@ https://fakeimg.pl
 ============= 01. Adding the Portfolio Structure.mp4 =============
 (mat-card>mat-card-header>mat-card-title>h4)+mat-divider.my-3+div
 
-
 ============= 02. Creating Our First Service.mp4 =============
+https://mockaroo.com
+
+ng g service services/portfolio --skipTests
+
+
 ============= 03. Displaying Our List of Portfolios.mp4 =============
 ============= 04. Filtering Our Portfolio List.mp4 =============
 ============= 05. Animating Our Portfolio List.mp4 =============
