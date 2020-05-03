@@ -1,4 +1,5 @@
 video location :: /home/salman/Downloads/tutorial2018/[ FreeCourseWeb.com ] Packt - Responsive Web Development with Bootstrap 4 and Angular 7
+https://medium.com/@skywalkerhunter/create-angular-in-intellij-idea-101-985b6359dd75
 
 git clone git@github.com-javagrails:javagrails/ngplay.git
 
@@ -72,6 +73,9 @@ https://fakeimg.pl
 
 ############# Chapter 6 - Creating Our Portfolio Page #############
 ============= 01. Adding the Portfolio Structure.mp4 =============
+(mat-card>mat-card-header>mat-card-title>h4)+mat-divider.my-3+div
+
+
 ============= 02. Creating Our First Service.mp4 =============
 ============= 03. Displaying Our List of Portfolios.mp4 =============
 ============= 04. Filtering Our Portfolio List.mp4 =============
@@ -103,5 +107,10 @@ https://fakeimg.pl
 
 
 
+=======================
+https://www.jetbrains.com/help/rider/Using_Angular_CLI.html
+https://github.com/johnpapa/vscode-angular-snippets
+https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials&wt.mc_id=vscode_angular_snippets-github-jopapa
+https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939
 
-
+https://chmod-calculator.com/
