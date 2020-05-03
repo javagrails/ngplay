@@ -80,8 +80,9 @@ https://mockaroo.com
 
 ng g service services/portfolio --skipTests
 
-
 ============= 03. Displaying Our List of Portfolios.mp4 =============
+div.row>div.col-3>mat-card
+
 ============= 04. Filtering Our Portfolio List.mp4 =============
 ============= 05. Animating Our Portfolio List.mp4 =============
 ============= 06. Updating Our Homepage.mp4 =============
