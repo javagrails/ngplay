@@ -89,7 +89,6 @@ div.row>div.col-3>mat-card
 
 ============= 06. Updating Our Homepage.mp4 =============
 
-
 ############# Chapter 7 - Creating Our Contact Page #############
 ============= 01. Adding Contact Details.mp4 =============
 ============= 02. Creating Our Contact Form.mp4 =============

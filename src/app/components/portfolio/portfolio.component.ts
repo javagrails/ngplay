@@ -1,5 +1,6 @@
 import {animate, animateChild, query, stagger, style, transition, trigger} from '@angular/animations';
 import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
 import {Portfolio} from '../../services/portfolio.model';
 import {PortfolioService} from '../../services/portfolio.service';
 
@@ -42,17 +43,22 @@ export class PortfolioComponent implements OnInit {
 
   portfolios: Portfolio[];
 
-  constructor(private portfolioService: PortfolioService) {
+  constructor(private portfolioService: PortfolioService,
+              private route: ActivatedRoute) {
   }
 
   ngOnInit() {
+    const filter = this.route.snapshot.queryParamMap.get('filter');
+    if (filter) {
+      this._selectedType = filter;
+    }
     this.loadPortfolios(this._selectedType);
   }
 
   loadPortfolios(selectedType: string): void {
     this.portfolioService.get().subscribe(data => {
       this.types = data.map(p => p.type).filter((value, index, self) => self.indexOf(value) === index);
-      console.log(this.types);
+      // console.log(this.types);
       this.portfolios = data.filter(p => p.type === selectedType || selectedType === 'All');
     });
   }

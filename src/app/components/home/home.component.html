@@ -56,7 +56,7 @@
     <div class="mb-3">
       <strong>Spring</strong>
       <span class="float-right">90%</span>
-      <mat-progress-bar [value]="90"  color="warn"></mat-progress-bar>
+      <mat-progress-bar [value]="90" color="warn"></mat-progress-bar>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@
       fugiat id inventore, neque officia quia suscipit tempora veniam?</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, culpa cum debitis eius fugiat minima
       necessitatibus neque obcaecati, officiis unde voluptatum.</p>
-    <button mat-stroked-button>Details</button>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'Angular'}" mat-stroked-button>Details</button>
   </div>
 </div>
 <div class="row mt-5">
@@ -82,7 +82,7 @@
       molestiae natus non nostrum quaerat quibusdam repellat saepe sapiente velit! Eaque, veritatis?</p>
     <p>Alias architecto at autem dignissimos ea, enim est ex in iure iusto laboriosam libero magni perferendis quae
       rem reprehenderit, veniam voluptatem!</p>
-    <button mat-stroked-button>Details</button>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'React'}" mat-stroked-button>Details</button>
   </div>
   <div class="col-3 text-center">
     <i class="fab fa-react fa-10x react-color d-none d-md-block"></i>
@@ -98,7 +98,7 @@
       nesciunt porro quaerat quibusdam tenetur voluptates! Eius enim, voluptates?</p>
     <p>Blanditiis dolore ducimus eaque ex harum illo in magnam mollitia numquam pariatur perspiciatis quaerat, quia
       quibusdam rem sit suscipit tenetur! Ducimus?</p>
-    <button mat-stroked-button>Details</button>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'Vue'}" mat-stroked-button>Details</button>
   </div>
 </div>
 <!--<mat-divider class="my-3"></mat-divider>-->
@@ -112,13 +112,10 @@
     </div>
   </div>
   <div class="row no-gutters">
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app1" alt="app1"></div>
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app2" alt="app2"></div>
-    <div class="col-12 col-sm-4 col-md-4"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app3" alt="app3"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app4" alt="app4"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app5" alt="app5"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app6" alt="app6"></div>
-    <div class="col-12 col-sm-6 col-md-3"><img class="img-fluid" src="https://fakeimg.pl/650x400/000000/?text=app7" alt="app7"></div>
+    <div *ngFor="let item of recentProjects;index as i"
+         [ngClass]="{'col-12 col-sm-4 col-md-4': i < 3, 'col-12 col-sm-3 col-md-3' : i >= 3}">
+      <img class="img-fluid" [src]="item.preview + '?text=' + item.name" [alt]="item.name">
+    </div>
     <div class="col-12 mt-3">
       <button mat-stroked-button>Details</button>
     </div>
