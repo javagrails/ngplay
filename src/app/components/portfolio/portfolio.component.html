@@ -7,13 +7,8 @@
   <label class="mr-1 font-weight-bold">Type:</label>
   <mat-radio-group [(ngModel)]="selectedType">
     <mat-radio-button class="mx-2" value="All">All</mat-radio-button>
-    <mat-radio-button class="mx-2" value="Angular">Angular</mat-radio-button>
-    <mat-radio-button class="mx-2" value="React">React</mat-radio-button>
-    <mat-radio-button class="mx-2" value="Vue">Vue</mat-radio-button>
+    <mat-radio-button *ngFor="let type of types" class="mx-2" [value]="type">{{type}}</mat-radio-button>
   </mat-radio-group>
-  <div>
-    {{selectedType}}
-  </div>
 </mat-card>
 <mat-divider class="my-3"></mat-divider>
 <div class="row mb-5">
@@ -24,8 +19,8 @@
           <ng-container [ngSwitch]="item.type">
             <i class="fab fa-angular fa-2x angular-color" *ngSwitchCase="'Angular'"></i>
             <i class="fab fa-react fa-2x react-color" *ngSwitchCase="'React'"></i>
-            <i class="fab fa-vue fa-2x vue-color" *ngSwitchCase="'Vue'"></i>
-            <i class="fab fa-question fa-2x" *ngSwitchDefault></i>
+            <i class="fab fa-vuejs fa-2x vue-color" *ngSwitchCase="'Vue'"></i>
+            <i class="fas fa-question-circle fa-2x" *ngSwitchDefault></i>
           </ng-container>
         </div>
         <mat-card-title>{{item.name}}</mat-card-title>

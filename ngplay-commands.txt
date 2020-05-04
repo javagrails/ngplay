@@ -84,6 +84,7 @@ ng g service services/portfolio --skipTests
 div.row>div.col-3>mat-card
 
 ============= 04. Filtering Our Portfolio List.mp4 =============
+
 ============= 05. Animating Our Portfolio List.mp4 =============
 ============= 06. Updating Our Homepage.mp4 =============
 
@@ -119,3 +120,9 @@ https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials&
 https://dev.to/mokkapps/why-i-switched-from-visual-studio-code-to-jetbrains-webstorm-939
 
 https://chmod-calculator.com/
+
+https://www.baeldung.com/spring-security-oauth-jwt
+https://www.baeldung.com/groovy-determine-data-type
+
+
+

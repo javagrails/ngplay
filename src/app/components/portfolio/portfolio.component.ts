@@ -9,7 +9,21 @@ import {PortfolioService} from '../../services/portfolio.service';
 })
 export class PortfolioComponent implements OnInit {
 
-  selectedType: 'All' | 'Angular' | 'React' | 'Vue' = 'All';
+  types: string[];
+
+  // private _selectedType: 'All' | 'Angular' | 'React' | 'Vue' = 'All';
+  private _selectedType: string = 'All';
+
+  get selectedType() {
+    return this._selectedType;
+  }
+
+  set selectedType(newlySelectedType: string) {
+    if (newlySelectedType !== this._selectedType) {
+      this._selectedType = newlySelectedType;
+      this.loadPortfolios(this._selectedType);
+    }
+  }
 
   portfolios: Portfolio[];
 
@@ -17,9 +31,14 @@ export class PortfolioComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.portfolioService.get().subscribe(data => {
-      this.portfolios = data;
-    });
+    this.loadPortfolios(this._selectedType);
   }
 
+  loadPortfolios(selectedType: string): void {
+    this.portfolioService.get().subscribe(data => {
+      this.types = data.map(p => p.type).filter((value, index, self) => self.indexOf(value) === index);
+      console.log(this.types);
+      this.portfolios = data.filter(p => p.type === selectedType || selectedType === 'All');
+    });
+  }
 }
