@@ -106,6 +106,9 @@ https://mailthis.to
 
 ############# Chapter 8 - Creating a Production Build and What’s Next #############
 ============= 01. Creating a Production Build.mp4 =============
+In package.json add [ "buildp": "ng build --prod" ] in scripts block
+and run [ npm run buildp ]
+
 ============= 02. Optimizing Our Website.mp4 =============
 ============= 03. What’s Next and Conclusion.mp4 =============
 
