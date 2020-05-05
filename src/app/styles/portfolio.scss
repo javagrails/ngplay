@@ -18,7 +18,8 @@ body {
 }
 
 .header {
-  background: url('./assets/images/bg3.jpg');
+  //background: url('./assets/images/bg3.jpg');
+  background: url('./assets/images/bg4.jpg');
   background-size: cover;
   background-position: bottom;
   min-height: 200px;
@@ -93,7 +94,7 @@ body {
 }
 
 .mat-card {
-  color: $border-color;
+  //color: $border-color;
   background-color: $alt-bg;
 
   .mat-card-header-text {

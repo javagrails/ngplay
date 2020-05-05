@@ -113,9 +113,11 @@ and run [ npm run buildp ]
 https://www.giftofspeed.com/tools
 
 ============= 03. What’s Next and Conclusion.mp4 =============
+Theming
+https://material.angular.io/guide/theming
+https://fontawesome.com/how-to-use/on-the-web/using-with/angular
 
-
-############# Chapter Exersice files #############
+############# Chapter Exercise files #############
 ============= my-portfolio-website =============
 
 ############# Chapter XXX_EXAMPLE_XXX #############
