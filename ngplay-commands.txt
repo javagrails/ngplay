@@ -86,11 +86,16 @@ div.row>div.col-3>mat-card
 ============= 04. Filtering Our Portfolio List.mp4 =============
 
 ============= 05. Animating Our Portfolio List.mp4 =============
+https://fontawesome.com/icons?d=gallery&q=question
 
 ============= 06. Updating Our Homepage.mp4 =============
 
 ############# Chapter 7 - Creating Our Contact Page #############
 ============= 01. Adding Contact Details.mp4 =============
+https://material.angular.io/components/card/examples
+
+(div.row>mat-card.col-12)+mat-divider.my-3+div.row.mb-5>div.col-4+div.com-8
+
 ============= 02. Creating Our Contact Form.mp4 =============
 
 
