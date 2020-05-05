@@ -5,5 +5,26 @@
 
 
 @import './app/styles/colors'; // @import './src/app/styles/_colors';
-@import '~bootstrap/scss/bootstrap';
+
+// @import '~bootstrap/scss/bootstrap';
+// Instead of above bootstrap libs we can use below libs because all are not used in this application, so it will optimize app size
+// Required
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Optimal but needed in this application (used libs of bootstrap)
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/utilities/display';
+@import '~bootstrap/scss/utilities/float';
+@import '~bootstrap/scss/utilities/text';
+@import '~bootstrap/scss/utilities/align';
+@import '~bootstrap/scss/utilities/borders';
+@import '~bootstrap/scss/utilities/sizing';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/images';
+
 @import './app/styles/portfolio'; // @import './src/app/styles/portfolio';

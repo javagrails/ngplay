@@ -110,6 +110,8 @@ In package.json add [ "buildp": "ng build --prod" ] in scripts block
 and run [ npm run buildp ]
 
 ============= 02. Optimizing Our Website.mp4 =============
+https://www.giftofspeed.com/tools
+
 ============= 03. What’s Next and Conclusion.mp4 =============
 
 
