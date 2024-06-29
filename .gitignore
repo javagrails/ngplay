@@ -40,4 +40,4 @@ build/
 **/.DS_Store
 Thumbs.db
 **/Thumbs.db
-
+## to che e2e and src get commited or not as they are not showing in git status command
