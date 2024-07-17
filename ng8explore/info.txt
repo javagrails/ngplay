@@ -1,0 +1,45 @@
+
+=============== 11. A Basic Project Setup using Bootstrap for Styling ===============
+npm install bootstrap@3 --save
+
+=============== 7. Creating Components with the CLI & Nesting Components ===============
+ng g c servers
+
+=============== Chapter-03 :: Course Project - The Basics ===============
+Note :: 5. Creating the Components
+
+npm install  --save bootstrap
+
+ng g c recipes --skipTests
+ng g c recipes/recipe-list --skipTests
+ng g c recipes/recipe-detail --skipTests
+ng g c recipes/recipe-list/recipe-item --skipTests
+
+ng g c shopping-list --skipTests
+ng g c shopping-list/shopping-edit --skipTests
+
+div.row>div.col-md-5+div.col-md-7
+
+Note :: 7. Adding a Navigation Bar
+UpTo :: 11. Outputting a List of Recipes with ngFor
+
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+=============== ffff ===============
+
+
+
+
